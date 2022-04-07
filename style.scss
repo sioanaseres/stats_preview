@@ -10,8 +10,8 @@ html { font-family: 'Inter', sans-serif; font-size: 15px; line-height: 2em; }
 
 body{  display: block; min-height: 100vh; margin: 0; text-rendering: optimizeSpeed;  background: hsl(233, 47%, 7%); color: hsl(0, 0%, 100%); }
 
-.cardContainer {display: flex; align-items: center; justify-content: center; flex-direction: column;  background: hsl(244, 38%, 16%); margin: 10rem auto; width: 90%; max-width: 75rem; border-radius: 1rem;
-    @media (min-width:700px){
+.cardContainer {display: flex; align-items: center; justify-content: center; flex-direction: column;  background: hsl(244, 38%, 16%); margin: 2rem auto; width: 90%; max-width: 75rem; border-radius: 1rem;
+    @media (min-width:700px){margin: 10rem auto;
      flex-direction: row-reverse;
     height: 50vh;                
     }}
